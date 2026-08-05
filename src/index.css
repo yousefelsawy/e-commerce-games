@@ -42,6 +42,9 @@ display: flex;
   cursor: pointer;
   
 }
+.current_page {
+  color: rgb(77, 75, 75);
+}
 .bottom_bar{
   margin-top: auto;
   display: flex;

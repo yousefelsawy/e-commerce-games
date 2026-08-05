@@ -11,7 +11,8 @@ export default function App() {
 <div className="App">
   <header className="header">
     <div className="spacer"></div>
-    <div><span>Home</span>
+    <div>
+    <span className="current_page">Home</span>
     <span>Shop</span>
     <span>About</span>
     <span>Contact</span>
@@ -32,7 +33,7 @@ export default function App() {
       <img src="src/assets/skyrim.webp" alt="deal1 image" />
       <p>Skyrim Special Edition</p>
       <div> <hr className="deal-divider"></hr>
-      <price>$29.99</price>
+      <price>£399 EGP</price>
       </div>
      
     </div>
@@ -40,28 +41,28 @@ export default function App() {
       <img src="src/assets/kcd2.webp" alt="deal2 image" />
       <p>KCD2</p>
       <div><hr className="deal-divider"></hr>
-      <price>$19.99</price></div>
+      <price>£699 EGP</price></div>
        
     </div>
     <div className="deal_container">
       <img src="src/assets/hades2.jpg" alt="deal3 image" />
       <p>Hades II</p>
       <div><hr className="deal-divider"></hr>
-      <price>$39.99</price></div>
+      <price>£649 EGP</price></div>
         
     </div>
     <div className="deal_container">
       <img src="src/assets/clair_obscur_expedition_33.webp" alt="deal4 image" />
       <p>Clair Obscur Expedition 33</p>
       <div> <hr className="deal-divider"></hr>
-      <price>$24.99</price></div>
+      <price>£1499 EGP</price></div>
       
     </div>
     <div className="deal_container">
       <img src="src/assets/death_stranding.webp" alt="deal5 image" />
       <p>Death Stranding</p>
       <div> <hr className="deal-divider"></hr>
-      <price>$49.99</price></div>
+      <price>£749 EGP</price></div>
     </div>
     </div>
       <div className="deals_row">
@@ -70,7 +71,7 @@ export default function App() {
           <p>Death Stranding</p>
           <div>
             <hr className="deal-divider" />
-            <price>$49.99</price>
+            <price>£749 EGP</price>
           </div>
         </div>
         <div className="deal_container">
@@ -78,7 +79,7 @@ export default function App() {
           <p>Skyrim Special Edition</p>
           <div>
             <hr className="deal-divider" />
-            <price>$29.99</price>
+            <price>£399 EGP</price>
           </div>
         </div>
         <div className="deal_container">
@@ -86,7 +87,7 @@ export default function App() {
           <p>Clair Obscur Expedition 33</p>
           <div>
             <hr className="deal-divider" />
-            <price>$24.99</price>
+            <price>£1499 EGP</price>
           </div>
         </div>
         <div className="deal_container">
@@ -94,7 +95,7 @@ export default function App() {
           <p>Hades II</p>
           <div>
             <hr className="deal-divider" />
-            <price>$39.99</price>
+            <price>£649 EGP</price>
           </div>
         </div>
         <div className="deal_container">
@@ -102,7 +103,7 @@ export default function App() {
           <p>KCD2</p>
           <div>
             <hr className="deal-divider" />
-            <price>$19.99</price>
+            <price>£699 EGP</price>
           </div>
         </div>
       </div>
@@ -112,7 +113,7 @@ export default function App() {
           <p>KCD2</p>
           <div>
             <hr className="deal-divider" />
-            <price>$19.99</price>
+            <price>£699 EGP</price>
           </div>
         </div>
         <div className="deal_container">
@@ -120,7 +121,7 @@ export default function App() {
           <p>Hades II</p>
           <div>
             <hr className="deal-divider" />
-            <price>$39.99</price>
+            <price>£649 EGP</price>
           </div>
         </div>
         <div className="deal_container">
@@ -128,7 +129,7 @@ export default function App() {
           <p>Skyrim Special Edition</p>
           <div>
             <hr className="deal-divider" />
-            <price>$29.99</price>
+            <price>£399 EGP</price>
           </div>
         </div>
         <div className="deal_container">
@@ -136,7 +137,7 @@ export default function App() {
           <p>Death Stranding</p>
           <div>
             <hr className="deal-divider" />
-            <price>$49.99</price>
+            <price>£749 EGP</price>
           </div>
         </div>
         <div className="deal_container">
@@ -144,7 +145,7 @@ export default function App() {
           <p>Clair Obscur Expedition 33</p>
           <div>
             <hr className="deal-divider" />
-            <price>$24.99</price>
+            <price>£1499 EGP</price>
           </div>
         </div>
       </div>
