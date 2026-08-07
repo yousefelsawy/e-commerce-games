@@ -45,6 +45,8 @@ display: flex;
 .current_page {
   color: rgb(77, 75, 75);
 }
+.head_middle {position: relative;
+left: 65px;}
 .bottom_bar{
   margin-top: auto;
   display: flex;
@@ -58,4 +60,13 @@ display: flex;
   width: 70px;
   height: auto;
   margin: 0 10px;
+}
+@media (max-width: 660px) {
+  .header{justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.head_middle{margin-left: -110px;}
 }

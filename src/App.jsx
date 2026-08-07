@@ -11,13 +11,13 @@ export default function App() {
 <div className="App">
   <header className="header">
     <div className="spacer"></div>
-    <div>
+    <div className="head_middle">
     <span className="current_page">Home</span>
     <span>Shop</span>
     <span>About</span>
     <span>Contact</span>
     </div>
-    <div><span>Cart</span>
+    <div className="head_last"><span>Cart</span>
     <span>LOGIN</span></div>
     
     
