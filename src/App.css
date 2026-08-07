@@ -65,31 +65,67 @@
   text-align: center;
   box-sizing: border-box;
   flex: 1 1 280px;
-  max-width: 340px;
+  max-width: 300px;
   height: auto;
   border-radius: 15px;
   margin: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.3s ease; */
 }
-.deal_container:hover {
+/* .deal_container:hover {
   background-color: rgba(70, 63, 57, 0.712);
   cursor: pointer;
-}
+} */
 .deal_container img {
   width: 100%;
-  max-width: 300px;
+  max-width: 280px;
   height: auto;
   border-radius: 15px;
   align-self: center;
+  cursor: pointer;
+}
+.deal_container p {
+  margin-bottom: -11px;
+  cursor: pointer;
 }
 .deal-divider {
   border: 0;
   height: 3px;
   background-color: rgba(128, 128, 128, 0.637);
-  margin: 2rem 0;
+  margin: 1rem 0;
+}
+.deal-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.deal-bottom button {
+  /* background-color: white; */
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 5px 5px 0px 5px;
+  width: 100px;
+}
+.buy-btn{background-color: black;
+color: white;
+border: 2px solid black;
+}
+.buy-btn:hover {
+ border-color: rgb(198, 187, 174);
+}
+.add-btn {background-color: rgba(19, 18, 18, 0);
+color: rgb(198, 187, 174);
+border: 2px solid rgb(198, 187, 174);}
+.add-btn:hover {
+  border-color: black;
+  color: black;
 }
 
 @media (max-width: 600px) {

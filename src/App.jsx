@@ -17,7 +17,8 @@ export default function App() {
     <span>About</span>
     <span>Contact</span>
     </div>
-    <span>Login</span>
+    <div><span>Cart</span>
+    <span>LOGIN</span></div>
     
     
   </header>
@@ -30,39 +31,67 @@ export default function App() {
   <div className="hot_deals">
     <h2>Hot Deals</h2>
     <div className="deals_row"> <div className="deal_container">
-      <img src="src/assets/skyrim.webp" alt="deal1 image" />
+      <img src="src/assets/skyrim.webp" alt="deal1 image"/>
       <p>Skyrim Special Edition</p>
       <div> <hr className="deal-divider"></hr>
       <price>£399 EGP</price>
+      <span className="deal-bottom">
+        <button className="add-btn">ADD</button>
+        <button className="buy-btn">BUY</button>
+      </span>
       </div>
      
     </div>
     <div className="deal_container">
       <img src="src/assets/kcd2.webp" alt="deal2 image" />
-      <p>KCD2</p>
-      <div><hr className="deal-divider"></hr>
-      <price>£699 EGP</price></div>
+      <p>Kingdom Come: Deliverance II</p>
+      <div>
+        <hr className="deal-divider"></hr>
+        <price>£699 EGP</price>
+        <span className="deal-bottom">
+          <button className="add-btn">ADD</button>
+          <button className="buy-btn">BUY</button>
+        </span>
+      </div>
        
     </div>
     <div className="deal_container">
       <img src="src/assets/hades2.jpg" alt="deal3 image" />
       <p>Hades II</p>
-      <div><hr className="deal-divider"></hr>
-      <price>£649 EGP</price></div>
+      <div>
+        <hr className="deal-divider"></hr>
+        <price>£649 EGP</price>
+        <span className="deal-bottom">
+          <button className="add-btn">ADD</button>
+          <button className="buy-btn">BUY</button>
+        </span>
+      </div>
         
     </div>
     <div className="deal_container">
       <img src="src/assets/clair_obscur_expedition_33.webp" alt="deal4 image" />
       <p>Clair Obscur Expedition 33</p>
-      <div> <hr className="deal-divider"></hr>
-      <price>£1499 EGP</price></div>
+      <div>
+        <hr className="deal-divider"></hr>
+        <price>£1499 EGP</price>
+        <span className="deal-bottom">
+          <button className="add-btn">ADD</button>
+          <button className="buy-btn">BUY</button>
+        </span>
+      </div>
       
     </div>
     <div className="deal_container">
       <img src="src/assets/death_stranding.webp" alt="deal5 image" />
       <p>Death Stranding</p>
-      <div> <hr className="deal-divider"></hr>
-      <price>£749 EGP</price></div>
+      <div>
+        <hr className="deal-divider"></hr>
+        <price>£749 EGP</price>
+        <span className="deal-bottom">
+          <button className="add-btn">ADD</button>
+          <button className="buy-btn">BUY</button>
+        </span>
+      </div>
     </div>
     </div>
       <div className="deals_row">
@@ -72,6 +101,10 @@ export default function App() {
           <div>
             <hr className="deal-divider" />
             <price>£749 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
         <div className="deal_container">
@@ -80,6 +113,10 @@ export default function App() {
           <div>
             <hr className="deal-divider" />
             <price>£399 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
         <div className="deal_container">
@@ -88,6 +125,10 @@ export default function App() {
           <div>
             <hr className="deal-divider" />
             <price>£1499 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
         <div className="deal_container">
@@ -96,24 +137,36 @@ export default function App() {
           <div>
             <hr className="deal-divider" />
             <price>£649 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
         <div className="deal_container">
           <img src="src/assets/kcd2.webp" alt="deal5 image" />
-          <p>KCD2</p>
+          <p>Kingdom Come: Deliverance II</p>
           <div>
             <hr className="deal-divider" />
             <price>£699 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
       </div>
       <div className="deals_row">
         <div className="deal_container">
           <img src="src/assets/kcd2.webp" alt="deal1 image" />
-          <p>KCD2</p>
+          <p>Kingdom Come: Deliverance II</p>
           <div>
             <hr className="deal-divider" />
             <price>£699 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
         <div className="deal_container">
@@ -122,6 +175,10 @@ export default function App() {
           <div>
             <hr className="deal-divider" />
             <price>£649 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
         <div className="deal_container">
@@ -130,6 +187,10 @@ export default function App() {
           <div>
             <hr className="deal-divider" />
             <price>£399 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
         <div className="deal_container">
@@ -138,6 +199,10 @@ export default function App() {
           <div>
             <hr className="deal-divider" />
             <price>£749 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
         <div className="deal_container">
@@ -146,6 +211,10 @@ export default function App() {
           <div>
             <hr className="deal-divider" />
             <price>£1499 EGP</price>
+            <span className="deal-bottom">
+              <button className="add-btn">ADD</button>
+              <button className="buy-btn">BUY</button>
+            </span>
           </div>
         </div>
       </div>
